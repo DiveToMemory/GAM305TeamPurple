@@ -21,6 +21,7 @@ Goals for Beta:
 Communication methods:
 Discord, 
 
-Meeting Schedule:
+Meeting Schedule: -Logan
+As available through Discord threads/calls
 
 Assigning/Reporting Methodology:
