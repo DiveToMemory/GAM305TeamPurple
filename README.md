@@ -26,3 +26,4 @@ Meeting Schedule (Logan):
 As available through Discord threads/calls
 
 Assigning/Reporting Methodology:
+Regular check-ins and Google Docs Checklist
