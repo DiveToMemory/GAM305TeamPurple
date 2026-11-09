@@ -11,7 +11,9 @@ Enemies: Moving enemies (Lord Malrick's guard servants)
 Brainstormed Concept (Cody): King's Castle
 You are a loyal knight... (Cody, fill this in with a brief concept description)
 
-Timeline:
+Timeline (Zach):
+Follow the weekly modules as a guide to ensure that we stay on track with expected development.
+Maintain status updates within our Discord communications to stay on pace.
 
 Goals for Alpha (Ryan):
 -Implement the core features for King's Castle as well as creating one or two room layouts. 
