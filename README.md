@@ -32,3 +32,27 @@ As available through Discord threads/calls
 
 Assigning/Reporting Methodology:
 Regular check-ins and Google Docs Checklist
+
+
+---Module Three QA and Testing Plan---
+
+Testing Plan (Cody):
+-Separate Play testing into two aspects: Features and Gameplay [INSERT DETAIL].
+
+-Demo testing: Full vertical slice/market-ready build before any external presentation. 
+
+-Code Release: Final checklist against our test plan/stability - Late production
+
+Example checklist items (Zach):
+- [INSERT MENTIONED CHECKLIST HERE]
+
+Updating Test Plan (Andrew):
+- [Mention how we will update the check list as discussed in chat]
+
+Bug Reporting Plan (Ryan): 
+Ultize GitHub's own Issues feature to write down issues and steps to reproduce them as well as their severity. All team members are able to report and easily update logs.
+
+How Bugs Will Be Tracked (Logan):
+-[Mention how bugs will be tracked via group member assignment, updating weekly README summaries, and having a central database for bugs]
+
+
