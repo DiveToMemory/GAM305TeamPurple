@@ -53,6 +53,7 @@ Bug Reporting Plan (Ryan):
 Ultize GitHub's own Issues feature to write down issues and steps to reproduce them as well as their severity. All team members are able to report and easily update logs.
 
 How Bugs Will Be Tracked (Logan):
--[Mention how bugs will be tracked via group member assignment, updating weekly README summaries, and having a central database for bugs]
+-Bugs will be tracked using a central bug database where each issue is documented with its description, severity, reproduction steps, current status, and assigned team member. The team will use a status workflow to show whether bugs are new, in progress, testing, or resolved. Team members will be assigned bugs based on the area they are responsible for, and a weekly summary will be added to the project README to show the current open bugs and their progress.
+
 
 
