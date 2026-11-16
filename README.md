@@ -60,7 +60,7 @@ Example checklist items (Zach):
 - Are enemies and the final boss fight fair
 
 Updating Test Plan (Andrew):
-- [Mention how we will update the check list as discussed in chat]
+- The test plan will be updated as features or the design document are updated or changed. We will maintain documented versions of our plan and code to better track and isolate issues encountered during testing. Changes will be noted here on GitHub so everyone has easy access. We will also meet and review the plan after any milestone updates. 
 
 Bug Reporting Plan (Ryan): 
 Ultize GitHub's own Issues feature to write down issues and steps to reproduce them as well as their severity. All team members are able to report and easily update logs.
