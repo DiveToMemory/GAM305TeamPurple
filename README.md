@@ -44,7 +44,20 @@ Testing Plan (Cody):
 -Code Release: Final checklist against our test plan/stability - Late production
 
 Example checklist items (Zach):
-- [INSERT MENTIONED CHECKLIST HERE]
+- Game launches
+- Saving/loading
+- Pause menu/settings
+- Player movement/controls feel responsive/intuitive
+- Combat/gameplay loop working
+- Win/lose conditions
+- Level can be completed from start to finish
+- Collectibles/interactables work (Relics, traps, doors, etc.)
+- Assets/models appear correctly
+- Menus/HUD clearly displayed
+- Performance works on our targeted hardware
+- Progression feels intuitive
+- Are rooms unique
+- Are enemies and the final boss fight fair
 
 Updating Test Plan (Andrew):
 - [Mention how we will update the check list as discussed in chat]
