@@ -129,7 +129,11 @@ difficult to do since our schedules are entirely different across the team.
 CommonUI added setup overhead (viewport client, input data, stacks)
 and caused some early bugs that I had to deal with because I hadn't decided to use
 the plugin from the start, so merging/switching over took a bit of tinkering.
-
+(Andrew)
+Some assets were migrated from a prior project. The previous project was of a very different design
+and nature so had several dependencies that made them difficult or impossible to adapt. While a few did adapt easily and nicely,
+some time was wasted on a one or two items I decided to ultimately scrap altogether,
+such as a physics-based pick up the player could carry and drop.
 ### How did the initial analysis of the game design document contribute to the decision to use these tools and techniques?
 
 (Zach)
