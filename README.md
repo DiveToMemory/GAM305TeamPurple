@@ -69,4 +69,71 @@ How Bugs Will Be Tracked (Logan):
 -Bugs will be tracked using a central bug database where each issue is documented with its description, severity, reproduction steps, current status, and assigned team member. The team will use a status workflow to show whether bugs are new, in progress, testing, or resolved. Team members will be assigned bugs based on the area they are responsible for, and a weekly summary will be added to the project README to show the current open bugs and their progress.
 
 
+---Module Four Project Log - Team Reflection---
+
+
+### What parts of the testing process did the team perceive to go well?
+
+(Zach)
+Testing the UI and interaction systems in small pieces worked well.
+For example, the interact prompt was tested on its own with placeholder text
+before any gameplay logic was connected to it, which made layout problems easy
+to separate from logic problems. Testing against a simple test pickup
+(BP_TestPickup) before building more interactable types also let's make sure
+everything is working before moving forward.
+
+### How were bugs identified and corrected?
+
+(Zach)
+Bugs were found by playtesting the menus and interact as they were built and 
+then tracing the cause. I used Print String nodes to confirm whether input 
+events and functions were firing. Examples from the UI/UX side:
+- **Interact prompt displaying incorrectly:** The prompt appeared as a solid
+  white box that hid its text, and later had uneven spacing around the action
+  icon that I put in place. The cause was some of the settings that I forgot to
+  adjust in the parent border.
+- **Prompt unable to reach the HUD:** The interact system couldn't call the
+  HUD because the HUD reference variable didn't exist in the player
+  controller. We promoted the HUD widget to a variable and fixed a node I placed
+  by mistake.
+- **Pause menu not closing on a second key press:** This one is still ongoing, I'm
+  not entirely sure what I messed up and will have to retrace my steps. After adding
+  the interact system, this part no longer worked as intended.
+- **Cursor not displaying in-game** Another ongoing issue, the cursor disappears
+  after interacting with either menu. Unchecking the "Hide cursor" option brings
+  that cursor back, but disables input. I likely left an incorrect node in place
+  or messed up a call to focus.
+
+### In terms of the QA and testing process, what would you do differently?
+
+(Zach)
+We would test earlier and more often rather than building several systems before
+testing, since one change affected another in this case. Unfortunately, this is very
+difficult to do since our schedules are entirely different across the team.
+
+
+### What tools (chosen in Module Two) did you find successful, and why?
+
+(Zach)
+- **Blueprints:** Allowed fast iteration on gameplay and UI
+  without waiting on compile times, and Blueprint Interfaces made it easy to
+  add new interactable object types.
+- **CommonUI plugin:** Provided a consistent structure for menus and input
+  handling.
+- **GitHub:** My first experience with a team project using github and it's fantastic.
+  Easy to access and update the project for us all using git.
+
+### Were there any tools or techniques that were not helpful, and why?
+
+(Zach)
+CommonUI added setup overhead (viewport client, input data, stacks)
+and caused some early bugs that I had to deal with because I hadn't decided to use
+the plugin from the start, so merging/switching over took a bit of tinkering.
+
+### How did the initial analysis of the game design document contribute to the decision to use these tools and techniques?
+
+(Zach)
+Our game design document had requirements for menus, a HUD, interactables, etc. that just
+made CommonUI seem like a no-brainer to me. The plugin made it (somewhat) easy to set up
+a modular widget structure.
 
