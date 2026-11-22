@@ -103,6 +103,12 @@ events and functions were firing. Examples from the UI/UX side:
   after interacting with either menu. Unchecking the "Hide cursor" option brings
   that cursor back, but disables input. I likely left an incorrect node in place
   or messed up a call to focus.
+  (Andrew)
+- **Traps not responding to player character** Removed references to deprecated character BP
+  preventing collision box interactions from triggering properly.
+- **Single trap trigger activating multiple traps** Built instance-based system using public variables.
+  Now each instance of each trigger (tripwire or camera) is tied to a specific targeted instance
+  of the movable walls and do not interfere with each other.
 
 ### In terms of the QA and testing process, what would you do differently?
 
@@ -122,6 +128,9 @@ difficult to do since our schedules are entirely different across the team.
   handling.
 - **GitHub:** My first experience with a team project using github and it's fantastic.
   Easy to access and update the project for us all using git.
+  (Andrew)
+- **Discord** Discord has facilitated quick and easy communication for when merge requests have been made
+  or for general progress updates between team members.
 
 ### Were there any tools or techniques that were not helpful, and why?
 
