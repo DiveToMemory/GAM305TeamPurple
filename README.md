@@ -110,6 +110,9 @@ events and functions were firing. Examples from the UI/UX side:
   Now each instance of each trigger (tripwire or camera) is tied to a specific targeted instance
   of the movable walls and do not interfere with each other.
 
+(Ryan)
+After creating the health system, I've been notified that the sentries Andrew had imported from his previous project were not successfully dealing damage to the player character. Being familiar with the setup I've placed, I took a look at the blueprint for the sentries' projectile myself. The logic was going in the right direction, and it took me a fair minute to figure out why it wasn't responding to the health blueprint properly. It turns out, an empty variable was created using a similar naming scheme as the blueprint and was calling to it, which explains why nothing was happening. The fix was fairly straightforward once I'd managed to crack the code, and I simply adjusted it to properly call out to the health blueprint instead of the variable. 
+
 ### In terms of the QA and testing process, what would you do differently?
 
 (Zach)
@@ -128,9 +131,13 @@ difficult to do since our schedules are entirely different across the team.
   handling.
 - **GitHub:** My first experience with a team project using github and it's fantastic.
   Easy to access and update the project for us all using git.
-  (Andrew)
+
+(Andrew)
 - **Discord** Discord has facilitated quick and easy communication for when merge requests have been made
   or for general progress updates between team members.
+
+(Ryan)
+- **Tasklist:** Creating a task list through a seperate, viewable Google Doc was very handy when laying out current tasks for team members to achieve throughout the week. 
 
 ### Were there any tools or techniques that were not helpful, and why?
 
@@ -138,6 +145,7 @@ difficult to do since our schedules are entirely different across the team.
 CommonUI added setup overhead (viewport client, input data, stacks)
 and caused some early bugs that I had to deal with because I hadn't decided to use
 the plugin from the start, so merging/switching over took a bit of tinkering.
+
 (Andrew)
 Some assets were migrated from a prior project. The previous project was of a very different design
 and nature so had several dependencies that made them difficult or impossible to adapt. While a few did adapt easily and nicely,
